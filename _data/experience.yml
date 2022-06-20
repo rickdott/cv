@@ -3,7 +3,7 @@
 - company: Sweco Nederland
   position: Software Engineer
   duration: August, 2019 &mdash; Present
-  summary: My work at Sweco started with continuing development of the REST API for Obsurv, leading to an eventual public release and clients making use of the product. Currently, I am working on a seperate application that handles a long-running export tasks from relational databases to RDF triple graph format. The application is built from the ground up to scale vertically and horizontally using the newest TypeScript, NodeJS, and ExpressJS technologies.
+  summary: My work at Sweco started with continuing development of the REST API for Obsurv, leading to an eventual public release and clients making use of the product. Currently, I am working on a separate application that handles long-running export tasks from a relational database to RDF triple graph format. The application is built from the ground up to scale vertically and horizontally using the newest TypeScript, NodeJS, and ExpressJS technologies.
 
 - company: Sweco Nederland
   position: Thesis Intern
