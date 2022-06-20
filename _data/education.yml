@@ -1,13 +1,12 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+- degree: Bachelor of Science, Software Engineering
+  uni: Amsterdam University of Applied Sciences
+  year: 2017 &mdash; 2021
+  award: Cum Laude graduate
+  summary: Followed the thematic semester 'Big Data' and minor 'Positive Psychology & Technology'
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: HAVO Degree, profile: Nature & Health
+  # uni: Springfield High School
+  year: 2016
+
+  # summary: You can choose to have either a single or multiple awards
