@@ -1,16 +1,19 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+# Sweco
+- company: Sweco Nederland
+  position: Software Engineer
+  duration: August, 2019 &mdash; Present
+  summary: My work at Sweco started with continuing development of the REST API for Obsurv, leading to an eventual public release and clients making use of the product. Currently, I am working on a seperate application that handles a long-running export tasks from relational databases to RDF triple graph format. The application is built from the ground up to scale vertically and horizontally using the newest TypeScript, NodeJS, and ExpressJS technologies.
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+- company: Sweco Nederland
+  position: Thesis Intern
+  duration: January, 2021 &mdash; June, 2021
+  summary: I did the intership for my thesis at a different team in Sweco, Water Midden 2. During this internship I researched the possibilities of Artificial Intelligence for recognizing defects in sewer inspection media. I created a proof of concept application that used a convolutional neural network trained on 40.000+ hand-annotated images to determine possible defects.
 
+- company: Sweco Nederland
+  position: Intern
+  duration: January, 2019 &mdash; June, 2019
+  summary: During my first internship at Sweco I worked in the development team of the GIS&ICT department. I developed from the ground up a REST API for 125+ relational tables using the available technologies. I learned to work with the Oracle stack, PL/SQL and JavaScript.
 
 # Loods 5
 - company: Loods 5 Amersfoort
