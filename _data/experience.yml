@@ -2,21 +2,21 @@
 # Sweco
 - company: Sweco Nederland
   position: Software Engineer
-  duration: August, 2019 &mdash; Present
+  duration: August 2019 &mdash; Present
   summary: My work at Sweco started with continuing development of the REST API for Obsurv, leading to an eventual public release and clients making use of the product. Currently, I am working on a separate application that handles long-running export tasks from a relational database to RDF triple graph format. The application is built from the ground up to scale vertically and horizontally using the newest TypeScript, NodeJS, and ExpressJS technologies.
 
 - company: Sweco Nederland
   position: Thesis Intern
-  duration: January, 2021 &mdash; June, 2021
+  duration: January 2021 &mdash; June 2021
   summary: I did the internship for my thesis at a different team in Sweco, Water Midden 2. During this internship I researched the possibilities of Artificial Intelligence for recognizing defects in sewer inspection media. I created a proof of concept application that determined possible defects in real-time using a convolutional neural network trained on 40.000+ hand-annotated images.
 
 - company: Sweco Nederland
   position: Intern
-  duration: January, 2019 &mdash; June, 2019
+  duration: January 2019 &mdash; June 2019
   summary: During my first internship at Sweco I worked in the development team of the GIS&ICT department. I developed from the ground up a REST API for 125+ relational tables using the available technologies. I learned to work with the Oracle stack, PL/SQL and JavaScript.
 
 # Loods 5
 - company: Loods 5 Amersfoort
   position: Allround-assistant
-  duration: February, 2017 &mdash; August, 2019
+  duration: February 2017 &mdash; August 2019
   summary: At Loods 5 I had the pleasure to be employed in many positions within the store, seemlessly transitioning when needed. I worked in sales, customer service, warehouse/transport, and administration.
