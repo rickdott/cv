@@ -3,7 +3,7 @@
 - company: Sweco Nederland
   position: Software Engineer
   duration: August 2019 &mdash; Present
-  summary: My work at Sweco started with continuing development of the REST API for Obsurv, leading to an eventual public release and clients making use of the product. Currently, I am working on a separate application that handles long-running export tasks from a relational database to RDF triple graph format. The application is built from the ground up to scale vertically and horizontally using the newest TypeScript, NodeJS, and ExpressJS technologies.
+  summary: "My work at Sweco started with continuing development of the REST API for Obsurv, leading to an eventual public release and clients making use of the product. I also created a novel application designed from the ground up to scale vertically and horizontally, handling long-running export tasks from a relational database to RDF triple graph format. I also converted my internship product for recognizing defects in sewer inspection media into a deployed product using Azure Machine Learning. While working at Sweco, I also guided multiple interns and assisted them in the technical parts of their internships, as well as graded their final presentations. Technologies used: PL/SQL, Oracle stack, TypeScript, JavaScript, Express, NodeJS, Python, VR in Three.JS, Azure for DevOps activities, Azure Machine Learning"
 
 - company: Sweco Nederland
   position: Thesis Intern
