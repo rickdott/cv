@@ -9,8 +9,8 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Rick den Otter"
-resume_title:                   "Software & Artificial Intelligence Engineer"
+resume_name:                    "Rick den Otter, MSc"
+resume_title:                   "Data Scientist"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "rickdotyt@gmail.com"
@@ -22,7 +22,7 @@ resume_contact_email:           "rickdotyt@gmail.com"
 resume_header_contact_info:     "rickdotyt@gmail.com • Apeldoorn"
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>Master student Artificial Intelligence with bachelor's degree in Software Engineering (Cum Laude). Eager to learn, communicative, analytical, structured.</p>"
+resume_header_intro: "<p>Eager to learn, communicative, analytical, structured.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
