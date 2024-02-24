@@ -2,8 +2,8 @@
 - degree: MSc, Artificial Intelligence
   uni: Utrecht University
   year: February 2022 &mdash; February 2024
-  award: Cum Laude graduate
-  summary: After successfully completing the pre-master and master courses, I conducted my thesis at the department of Experimental Psychology (Utrecht University) on classifying cognitive processing operations using machine learning classifiers. During this thesis I was chosen to present my research at the NVP Dutch Society for Brain and Cognition Winter Conference.
+  # award: Cum Laude graduate
+  summary: After successfully completing the pre-master and master courses, I conducted my thesis at the department of Experimental Psychology (Utrecht University) on classifying cognitive processing operations using machine learning classifiers. During this thesis I was chosen to present my research at the NVP Dutch Society for Brain and Cognition Winter Conference. My thesis was awarded a grade of 8.9, with a 9.5 for both the result and the process.
 
 - degree: BSc, Software Engineering
   uni: Amsterdam University of Applied Sciences
