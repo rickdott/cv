@@ -479,8 +479,8 @@
   [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)Apeldoorn, the Netherlands],
   [#box(original-link("mailto:rickdotyt@gmail.com")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)rickdotyt\@gmail.com])],
   [#box(original-link("https://orcid.org/0009-0002-8852-1697")[#fa-icon("orcid", size: 0.9em) #h(0.05cm)0009-0002-8852-1697])],
-  [#box(original-link("https://linkedin.com/in/https://www.linkedin.com/in/rick-denotter/")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)https:\/\/www.linkedin.com\/in\/rick-denotter\/])],
-  [#box(original-link("https://github.com/https://github.com/rickdott")[#fa-icon("github", size: 0.9em) #h(0.05cm)https:\/\/github.com\/rickdott])],
+  [#box(original-link("https://linkedin.com/in/rick-denotter")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)rick-denotter])],
+  [#box(original-link("https://github.com/rickdott")[#fa-icon("github", size: 0.9em) #h(0.05cm)rickdott])],
 )
 #connections(connections-list)
 

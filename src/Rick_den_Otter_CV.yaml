@@ -9,9 +9,9 @@ cv:
     - network: ORCID
       username: 0009-0002-8852-1697
     - network: LinkedIn
-      username: https://www.linkedin.com/in/rick-denotter/
+      username: rick-denotter
     - network: GitHub
-      username: https://github.com/rickdott
+      username: rickdott
   sections:
     # summary:
     #   - PhD candidate

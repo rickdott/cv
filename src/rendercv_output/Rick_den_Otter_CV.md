@@ -3,8 +3,8 @@
 - Email: [rickdotyt@gmail.com](mailto:rickdotyt@gmail.com)
 - Location: Apeldoorn, the Netherlands
 - ORCID: [0009-0002-8852-1697](https://orcid.org/0009-0002-8852-1697)
-- LinkedIn: [https://www.linkedin.com/in/rick-denotter/](https://linkedin.com/in/https://www.linkedin.com/in/rick-denotter/)
-- GitHub: [https://github.com/rickdott](https://github.com/https://github.com/rickdott)
+- LinkedIn: [rick-denotter](https://linkedin.com/in/rick-denotter)
+- GitHub: [rickdott](https://github.com/rickdott)
 
 
 # Education
