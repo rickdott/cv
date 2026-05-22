@@ -1,1 +1,140 @@
-<object data="src/rendercv_output/Rick_den_Otter_CV.pdf" width="1000" height="1000" type='application/pdf'></object>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Rick den Otter — CV</title>
+<style>
+  :root {
+    --paper: #ffffff;
+    --bg: #eceae4;
+    --ink: #1e262c;
+    --accent: #0d4f4f;
+    --shadow: 0 2px 4px rgba(0,0,0,.06), 0 12px 32px rgba(0,0,0,.10);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  header {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 28px 20px 16px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .wordmark {
+    font-family: "Iowan Old Style", "Hoefler Text", Georgia, serif;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: .3px;
+    color: var(--accent);
+    margin: 0;
+  }
+  .download {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background: var(--accent);
+    padding: 9px 16px;
+    border-radius: 8px;
+    transition: opacity .15s ease;
+  }
+  .download:hover { opacity: .88; }
+  .download svg { width: 16px; height: 16px; }
+  #stage {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 8px 20px 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+  }
+  .page {
+    width: 100%;
+    height: auto;
+    display: block;
+    background: var(--paper);
+    border-radius: 4px;
+    box-shadow: var(--shadow);
+  }
+  #status {
+    color: #6b6b66;
+    font-size: 15px;
+    padding: 48px 20px;
+    text-align: center;
+  }
+  #status a { color: var(--accent); }
+  @media (max-width: 560px) {
+    header { padding-top: 20px; }
+    .wordmark { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1 class="wordmark">Rick den Otter</h1>
+    <a class="download" id="dl" href="#" download>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download PDF
+    </a>
+  </header>
+
+  <main id="stage">
+    <div id="status">Loading CV…</div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script>
+    // ---- Edit this one line if you move the file ----
+    const PDF_URL = "src/rendercv_output/Rick_den_Otter_CV.pdf";
+    // -------------------------------------------------
+
+    const RENDER_WIDTH = 1600; // render resolution; CSS scales it down responsively
+    document.getElementById("dl").href = PDF_URL;
+
+    pdfjsLib.GlobalWorkerOptions.workerSrc =
+      "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+
+    const stage = document.getElementById("stage");
+    const status = document.getElementById("status");
+
+    pdfjsLib.getDocument(PDF_URL).promise.then(function (pdf) {
+      status.remove();
+      const canvases = [];
+      for (let n = 1; n <= pdf.numPages; n++) {
+        const c = document.createElement("canvas");
+        c.className = "page";
+        stage.appendChild(c);
+        canvases.push(c);
+      }
+      for (let n = 1; n <= pdf.numPages; n++) {
+        pdf.getPage(n).then(function (page) {
+          const base = page.getViewport({ scale: 1 });
+          const viewport = page.getViewport({ scale: RENDER_WIDTH / base.width });
+          const canvas = canvases[page.pageNumber - 1];
+          canvas.width = viewport.width;
+          canvas.height = viewport.height;
+          page.render({ canvasContext: canvas.getContext("2d"), viewport: viewport });
+        });
+      }
+    }).catch(function (err) {
+      status.innerHTML =
+        'Could not load the PDF. <a href="' + PDF_URL + '">Open it directly</a>.';
+      console.error(err);
+    });
+  </script>
+</body>
+</html>
