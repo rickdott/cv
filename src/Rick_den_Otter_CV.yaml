@@ -1,0 +1,302 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.3/schema.json
+cv:
+  name: Rick den Otter
+  # headline: PhD Candidate in Experimental Psychology
+  location: Apeldoorn, the Netherlands
+  photo: profile_picture.jpg
+  email: rickdotyt@gmail.com
+  social_networks:
+    - network: ORCID
+      username: 0009-0002-8852-1697
+    - network: LinkedIn
+      username: https://www.linkedin.com/in/rick-denotter/
+    - network: GitHub
+      username: https://github.com/rickdott
+  sections:
+    # summary:
+    #   - PhD candidate
+    education:
+      - institution: Experimental Psychology, Utrecht University
+        area: Artificial Intelligence & Cognitive Neuroscience
+        degree: PhD
+        start_date: 2024-05
+        end_date: present
+        location: Utrecht, the Netherlands
+        summary: My PhD is a continuation of my masters' thesis project, where I apply Hidden Multivariate Pattern analysis combined with deep spatiotemporal sequence models to decode cognitive operations from EEG at the trial level.
+      - institution: Utrecht University
+        area: Artificial Intelligence
+        degree: MSc
+        start_date: 2022-02
+        end_date: 2024-02
+        location: Utrecht, the Netherlands
+        summary: I conducted my thesis at the department of Experimental Psychology (Utrecht University) on classifying cognitive processing operations from EEG using machine learning classifiers. During this thesis I was chosen to present my research at the NVP Dutch Society for Brain and Cognition Winter Conference. My thesis was awarded a grade of 8.9, with a 9.5 for both the result and the process.
+      - institution: Hogeschool van Amsterdam
+        area: HBO-ICT Software Engineering
+        degree: BSc
+        start_date: 2017-09
+        end_date: 2021-06
+        location: Amsterdam, the Netherlands
+        summary:
+        highlights:
+          - 'Graduated Cum Laude (Grade: 8.3/10)'
+          - 'Followed thematic semester "Big Data" and minor "Positive Psychology & Technology"'
+          - 'Best first year project out of 150+ groups as voted by peers and teachers (2017)'
+      - institution: High School
+        area: General Education
+        degree: HAVO
+        summary: Profile Nature & Health
+        end_date: 2016
+        location: Lelystad, the Netherlands
+
+    publications:
+      - title: Trial-level sequence modeling reveals hidden dynamics of dual-task interference
+        authors:
+          - Rick den Otter
+          - Anna Dame
+          - Sjoerd Stuit
+          - Leendert van Maanen
+        doi: 10.1371/journal.pcbi.1014302
+        url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014302
+        journal: PLOS Computational Biology
+        date: 2026-05-20
+      - title: Identifying trial-by-trial cognitive strategies in speed-accuracy trade-off through deep sequence modeling
+        authors:
+          - Rick den Otter
+          - Gabriel Weindel
+          - Sjoerd Stuit
+          - Leendert van Maanen
+        date: under review
+      - title: A Trial-Level Neural Predictor of Proactive Slowing and Stop-Signal Success
+        authors:
+          - Rick den Otter
+          - Leendert van Maanen
+          - Leon Kenemans
+          - Daan van Rooij
+        date: in preparation
+
+
+    grants and awards:
+      - title: NWO Small Compute Grant (310.000 compute units on Snellius)
+        date: 2026-02
+        authors:
+          - Rick den Otter
+
+    conferences:
+      - title: NVP Dutch Society for Brain and Cognition Winter Conference
+        authors: 
+          - Egmond aan Zee, the Netherlands (Poster presentation)
+        date: 2025-12
+      - title: International Conference on Cognitive Neuroscience (ICON)
+        authors: 
+          - Porto, Portugal (Poster presentation)
+        date: 2025-09
+      - title: Cognitive Computational Neuroscience (CCN)
+        authors: 
+          - Amsterdam, the Netherlands (Poster presentation)
+        date: 2025-07
+      - title: Helmholtz Institute - Perception day
+        authors: 
+          - Utrecht, the Netherlands (Poster presentation)
+        date: 2024-11
+      - title: NVP Dutch Society for Brain and Cognition Winter Conference
+        authors: 
+          - Egmond aan Zee, the Netherlands (Poster presentation)
+        date: 2023-12
+  
+    academic service:
+      - label: (Co)-reviewer
+        details: 'eLife, Cognitive Computational Neuroscience conference'
+        
+    teaching experience:
+      - label: Machine Learning for Human Vision & Language (MSc Artificial Intelligence, Utrecht University)
+        details: Teaching work groups, grading exams
+      - label: Human Network Analysis (MSc Applied Data Science, Utrecht University)
+        details: Teaching work groups, grading exams
+      - label: Programming (BSc Psychology, Utrecht University)
+        details: Guiding and grading students during their programming assignments
+      - label: Thesis supervision (BSc Artificial Intelligence, Utrecht University)
+        details: Guiding and grading students during their BSc thesis
+      - label: Thesis supervision (MSc Artificial Intelligence, Utrecht University)
+        details: Guiding and grading students during their MSc thesis
+
+    professional experience:
+      - company: Sweco Nederland
+        position: Software Engineer, Thesis Intern, Intern
+        start_date: 2019-01
+        end_date: 2024-02
+        location: De Bilt, the Netherlands
+        summary: 'My internships and job at Sweco Nederland started with developing and maintaining the REST API for Obsurv. Later, I developed a novel application handling concurrent long-running export tasks from a relational database to RDF triple graph format. Finally, I conducted my BSc thesis at Sweco Nederland on using machine learning to recognize defects in sewer inspection media. I integrated this model into a deployed product using Azure Machine Learning. Additionally, I guided multiple interns, assisting them with the technical part of their internships, and grading their theses. Technologies used: PL/SQL, Oracle stack, TypeScript, JavaScript, Express, NodeJS, Python, VR in Three.JS, Azure for DevOps activities, Azure Machine Learning.'
+
+    courses and summer schools:
+      - title: Smoothening your writing process
+        date: 2025-07
+        authors:
+          - Utrecht, the Netherlands
+      - title: Inclusion and Social Safety training
+        date: 2024-12
+        authors:
+          - Utrecht, the Netherlands
+      - title: Summer School Advanced Communication Skills
+        date: 2024-08
+        authors:
+          - Utrecht, the Netherlands
+    skills:
+      - label: Programming
+        details: 'Proficient: Python (PyTorch, Pandas, NumPy), R (lme4), MATLAB (EEGLAB). Familiar: C#, JavaScript, HTML/CSS'
+      - label: Other technical skills
+        details: 'Git/GitHub, Linux, Docker, Distributed computing (Azure, Snellius), Adobe Creative Cloud (Photoshop, Illustrator, InDesign)'
+      - label: Experimental methods
+        details: 'EEG (BioSemi ActiveTwo)'
+      - label: Languages
+        details: 'English (fluent), Dutch (native)'
+  sort_entries: none
+design:
+  theme: engineeringclassic
+  page:
+    size: a4
+  #   top_margin: 2cm
+  #   bottom_margin: 2cm
+  #   left_margin: 2cm
+  #   right_margin: 2cm
+    show_page_numbering: false
+    show_last_updated_date: true
+  colors:
+    text: rgb(30, 38, 44)
+    name: rgb(13, 71, 79)
+    connections: rgb(82, 104, 112)
+    section_titles: rgb(33, 84, 87)
+    links: rgb(15, 110, 100)
+    last_updated_date_and_page_numbering: rgb(143, 143, 143)
+  text:
+    font_family: Open Sans
+  #   font_size: 10pt
+  #   leading: 0.5em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  # links:
+  #   underline: false
+  #   use_external_link_icon: false
+  # header:
+  #   name_font_family: Times New Roman
+  #   name_font_size: 30pt
+  #   name_bold: true
+  #   small_caps_for_name: false
+  #   photo_width: 3.5cm
+  #   vertical_space_between_name_and_connections: 0.7cm
+  #   vertical_space_between_connections_and_first_section: 0.7cm
+  #   horizontal_space_between_connections: 0.5cm
+  #   connections_font_family: Open Sans
+  #   separator_between_connections: ''
+  #   use_icons_for_connections: true
+  #   use_urls_as_placeholders_for_connections: false
+  #   make_connections_links: true
+  #   alignment: center
+  # section_titles:
+  #   type: with-partial-line
+  #   font_family: Open Sans
+  #   font_size: 1.4em
+  #   bold: true
+  #   small_caps: false
+  #   line_thickness: 0.5pt
+  #   vertical_space_above: 0.5cm
+  #   vertical_space_below: 0.3cm
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   left_and_right_margin: 0.2cm
+  #   horizontal_space_between_columns: 0.1cm
+  #   vertical_space_between_entries: 1.2em
+  #   allow_page_break_in_sections: true
+  #   allow_page_break_in_entries: true
+  #   short_second_row: false
+  #   show_time_spans_in: []
+  # highlights:
+  #   bullet: •
+  #   nested_bullet: '-'
+  #   top_margin: 0.25cm
+  #   left_margin: 0.4cm
+  #   vertical_space_between_highlights: 0.25cm
+  #   horizontal_space_between_bullet_and_highlight: 0.5em
+  #   summary_left_margin: 0cm
+  # entry_types:
+  #   one_line_entry:
+  #     template: '**LABEL:** DETAILS'
+  #   education_entry:
+  #     main_column_first_row_template: '**INSTITUTION**, AREA'
+  #     degree_column_template: '**DEGREE**'
+  #     degree_column_width: 1cm
+  #     main_column_second_row_template: |-
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column_template: |-
+  #       LOCATION
+  #       DATE
+  #   normal_entry:
+  #     main_column_first_row_template: '**NAME**'
+  #     main_column_second_row_template: |-
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column_template: |-
+  #       LOCATION
+  #       DATE
+  #   experience_entry:
+  #     main_column_first_row_template: '**COMPANY**, POSITION'
+  #     main_column_second_row_template: |-
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column_template: |-
+  #       LOCATION
+  #       DATE
+  #   publication_entry:
+  #     main_column_first_row_template: '**TITLE**'
+  #     main_column_second_row_template: |-
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     main_column_second_row_without_journal_template: |-
+  #       AUTHORS
+  #       URL
+  #     main_column_second_row_without_url_template: |-
+  #       AUTHORS
+  #       JOURNAL
+  #     date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: '2026-05-21'
+  bold_keywords: []
+  sort_entries: none
