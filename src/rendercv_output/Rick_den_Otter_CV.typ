@@ -559,29 +559,6 @@
   ),
 )
 
-#v(design-entries-vertical-space-between-entries)
-// YES DATE, YES DEGREE
-#three-col-entry(
-  left-column-width: 1cm,
-  left-content: [#strong[HAVO]],
-  middle-content: [
-    #strong[High School], General Education -- Lelystad, the Netherlands
-  ],
-  right-content: [
-    2016
-  ],
-)
-#block(
-  [
-    #set par(spacing: 0pt)
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Profile Nature & Health])], column-gutter: 0cm)
-  ],
-  inset: (
-    left: design-entry-types-education-entry-degree-column-width + design-entries-horizontal-space-between-columns + design-entries-left-and-right-margin,
-    right: design-entries-left-and-right-margin,
-  ),
-)
-
 
 
 == Publications

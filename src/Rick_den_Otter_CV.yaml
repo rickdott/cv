@@ -41,12 +41,6 @@ cv:
           - 'Graduated Cum Laude (Grade: 8.3/10)'
           - 'Followed thematic semester "Big Data" and minor "Positive Psychology & Technology"'
           - 'Best first year project out of 150+ groups as voted by peers and teachers (2017)'
-      - institution: High School
-        area: General Education
-        degree: HAVO
-        summary: Profile Nature & Health
-        end_date: 2016
-        location: Lelystad, the Netherlands
 
     publications:
       - title: Trial-level sequence modeling reveals hidden dynamics of dual-task interference

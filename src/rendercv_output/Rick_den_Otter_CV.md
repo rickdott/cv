@@ -27,11 +27,6 @@
 - Followed thematic semester "Big Data" and minor "Positive Psychology & Technology"
 - Best first year project out of 150+ groups as voted by peers and teachers (2017)
 
-## High School, HAVO in General Education
-
-- 2016
-- Lelystad, the Netherlands
-
 # Publications
 
 ## Trial-level sequence modeling reveals hidden dynamics of dual-task interference ([10.1371/journal.pcbi.1014302](https://doi.org/10.1371/journal.pcbi.1014302))
